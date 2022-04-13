@@ -1,0 +1,160 @@
+*
+{
+    margin: 0px;
+    padding: opx;
+}
+
+body
+{
+    background:#D0D8C6;
+}
+
+p
+{
+    font-family:Arial Rounded MT Bold;
+}
+
+header
+{
+    background:#43473E;
+    width:100%;
+    z-index: 10;
+    position: fixed;
+}
+
+nav
+{
+    background:#70D55D;
+    overflow:hidden;    
+    border-bottom: 4px solid #43473E;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    list-style:none;
+    padding:0;
+}
+
+nav ul li
+{
+    float:left;
+    text-align:center;
+    font-weight:bold;
+    margin-right:20px;
+    font-family:Helvetica;
+}
+
+
+nav ul li a
+{
+    display:block;
+    text-decoration:none;
+    padding:14px 10px;
+    color: #000;
+}
+nav ul li a:hover{
+    background:#008080;
+    color: aliceblue;
+}
+
+article
+{
+    background:#558169;
+    position: relative;
+    top:50px;
+    margin-right:80px;
+    left:40px;
+    padding:40px;
+    text-align: justify;
+        
+}
+
+h1
+{
+    text-align: center;
+    font-family: Cooper Black;
+    margin-bottom:30px;
+    border: dashed #76E381;
+    padding:10px;
+    margin-left:150px;
+    margin-right:150px;
+    
+}
+
+section
+{
+    background:#F6FCFC;
+    padding: 20px;
+    margin:20px;
+}
+
+H2
+{
+    text-align: center;
+    margin-bottom:30PX;
+    border: dashed #35E3E6;
+    margin-left:150px;
+    margin-right:150px;
+    color: #195550;
+}
+
+h3
+{
+    text-align: center;
+    font-family:Brush Script MT ;
+    font-size:40px;
+}
+
+h3.css
+{
+    color:#900C3F;
+    font-size:40px;
+}
+
+h3.html
+{
+    color:#D12305;
+    
+}
+
+
+h3.js
+{
+    color:#F27E11;
+}
+
+h3.php
+{
+    color:#30106A;
+}
+
+footer
+{
+    background:#43473E;
+    position: relative;
+    padding:20px;
+    width:100%;
+    height:40px;
+    top:48px;
+    
+}
+
+footer p 
+{
+    text-align: center;
+    color:#27AE60; 
+    font-family: Forte;
+    font-size:30px;
+}
+
+img
+{
+    width:40px;
+    height:40px;
+    position: relative;
+    top:0px;
+    position: fixed
+}
